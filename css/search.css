@@ -1,0 +1,11 @@
+.where-togo{
+    color: white;
+    background-color: #040E27;
+    font-weight: lighter;
+}
+
+#search-button{
+    color: white;
+    background-color: red;
+    grid-area: .where-togo;
+}

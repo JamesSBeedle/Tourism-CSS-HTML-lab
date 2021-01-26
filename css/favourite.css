@@ -1,0 +1,52 @@
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    grid-area:indonesia;
+    }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    grid-area: australia;
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    grid-area: switzerland;
+  }
+  
+  .favourite {
+    display: grid;
+    grid-template-areas: 
+    'indonesia australia switzerland';
+    grid-gap: 2rem;
+    justify-content: center;
+    }
+
+  .favourite-image{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    align-items: center;
+    justify-items: center;
+    flex-flow: row wrap;
+  }
+
+  .favourites-headers{
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    text-align: center;
+    }
+  
+  .favourite-image > p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  .favourite-button {
+    border: none;
+    color: white;
+    background-color: seagreen;
+  }
+  
+  
